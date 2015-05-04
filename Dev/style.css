@@ -4,5 +4,32 @@
             color: lawngreen;
         }
         a:hover{
-            color: lawngreen;
+            color: mediumpurple;
+        }
+        
+        .container{
+            display: flexbox;
+            border: 1px solid black;
+            margin-top: 100px;
+            margin-left: 100px;
+            min-height: 100px;
+        }
+        
+        container > *{
+            min-height: 25px;
+            min-width: 25px;
+            margin: 5px;
+            border: 1px solid black;
+        }
+        
+        .red{
+            background-color: red;
+        }
+        
+        .blue{
+            background-color: blue;
+        }
+        
+        .green{
+            background-color: green;
         }
